@@ -10,7 +10,6 @@ This prototype focuses on understanding how pre-trained models like `bert-base-u
 
 ### 1. Initial Setup and Testing
 - Installed required dependencies.
-- Loaded both BERT and RoBERTa for a basic test run.
 
 ### 2. Model Architecture Comparison
 - Compared model structures and tokenizer behaviors.
@@ -18,7 +17,6 @@ This prototype focuses on understanding how pre-trained models like `bert-base-u
 
 ### 3. Dataset Preparation
 - Used the `liar2` dataset (6-class version).
-- Built PyTorch Dataset/DataLoader wrappers.
 
 ### 4. Fine-Tuning
 - Trained each model with early stopping and saved the best checkpoints.
