@@ -2,6 +2,9 @@
 
 Fine-tuning project for fake news detection using BERT and RoBERTa with HuggingFace and PyTorch. The goal was to explore how transformer models behave on the same task, not to build a production-ready system.
 
+The fake news classification models was trained on the [LIAR2 dataset](https://huggingface.co/datasets/chengxuphd/liar2), which is an enhanced version of the original LIAR dataset by Wang (2017).
+
+
 ## 🧭 Project Overview
 
 This prototype focuses on understanding how pre-trained models like `bert-base-uncased` and `roberta-base` perform on a multi-class fake news classification task using the LIAR v2 dataset. Both models were fine-tuned, evaluated, and compared side by side.
